@@ -9,5 +9,10 @@ module.exports = {
     require('postcss-assets')({
       loadPaths: ['dist/img']
     }),
+    require('postcss-pxtorem'),
+    require('postcss-responsive-font'),
+    // require('cssnano')({
+    //   preset: 'default',
+    // })
   ]
 };
